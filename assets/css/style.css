@@ -153,26 +153,34 @@ label {
     background-image: url(../images/watercolor-background.jpg);
 } */
 
- .modal-radios {
-    text-align: center;
-}
 
 /* signup */
 
 /* Buy now modal */
-.modal-dialog p {
-    text-align: center;
+.buynow-modal span{
+    font-size: 30px;
 }
 
 .modal-dialog h6 {
-    text-align: center;
     text-decoration: underline;
 }
+.modal-footer button {
+    width: 100%;
+} 
+.modal-footer > p {
+    text-align: center;
+    width: 100%;
+}
+
 
 /* media queries*/
-/* Small devices (portrait tablets and large phones, 600px and up) */
-/* @media only screen and (max-width: 575px) {
-    .signup-form label {
-        text-align: left;
+/* Small devices (mobile phones, 375px and down) */
+@media only screen and (max-width: 375px) {
+    .modal-radios {
+        padding: 0;
     }
-} */
+    .modal-body .col-6 {
+        font-size: 15px;
+        padding-left: 0;
+    }
+}

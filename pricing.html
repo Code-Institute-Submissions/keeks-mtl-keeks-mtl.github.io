@@ -42,30 +42,38 @@
     </nav>
 <!-- /navbar -->
 <!-- alert -->
-    <div class="container-fluid safety d-flex align-items-center">
-        <div class="row align-items-center no-gutters">
-            <div class="d-none d-md-block col-md-4 safe-text">Find out how we're keeping you safe</div>
-            <div class="d-none d-md-block col-md-4"><hr></div>
-            <div class="col-md-4"><a id="safety-measures" class="btn btn-sm btn-light" href="">Safety Measures</a></div>
-            
+<section class="alert-bar">
+    <div class="container-fluid safety">
+      <div class="row no-gutters">
+        <div class="d-none d-md-block col-md-6 safe-text uppercase">
+          Find out how we're keeping you safe
         </div>
-    </div> 
+        <div class="col-md-6">
+          <a id="safety-measures" class="btn btn-sm btn-light" href=""
+            >Safety Measures</a
+          >
+        </div>
+      </div>
+    </div>
+  </section>
 <!-- /alert -->
+<main>
 <!-- pricing sections -->
+    <section class="pricing-section">
     <div class="container pricing-box">
         <div class="row justify-content-around">
             <div class="col-md-5">
                 <div class="card">
                     <img src="assets/images/homeyoga.jpg" class="card-img-top" alt="Woman stretching at home">
                     <!-- Photo by <a href="https://unsplash.com/@mathildelangevin?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Mathilde Langevin</a> on <a href="/?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
-   -->
+                    !-->
                     <div class="card-header uppercase text-center">
                         Online Pricing
                     </div>
                     <div class="card-body text-center">
                         <p>7 Day Free Trial</p>
-                        <p>Monthly Memberships £20/Month</p>
-                        <p>Annual Memberships £10/Month</p>
+                        <p>Monthly Memberships &#163 20/Month</p>
+                        <p>Annual Memberships &#163 10/Month</p>
                         <a href="classes.html" class="btn btn-light">See Classes</a>
                         <a href="#" class="btn btn-light" data-toggle="modal" data-target="#buyNowModal">Buy Now</a>
                     </div>
@@ -74,16 +82,15 @@
             <div class="col-md-5">
                 <div class="card">
                     <img src="assets/images/woman-mirror.jpg" class="card-img-top" alt="A woman working out in a gym studio">
-                    
-   <!-- Photo by <a href="https://unsplash.com/@yulissatagle?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Yulissa Tagle</a> on <a href="/?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
-   -->
+                    <!-- Photo by <a href="https://unsplash.com/@yulissatagle?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Yulissa Tagle</a> on <a href="/?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+                    !-->
                     <div class="card-header uppercase text-center">
                         Studio Pricing
                     </div>
                     <div class="card-body text-center">
-                        <p>Single Class £9</p>
-                        <p>5 Classes £40</p>
-                        <p>10 Classes £70</p>
+                        <p>Single Class &#163 9</p>
+                        <p>5 Classes &#163 40</p>
+                        <p>10 Classes &#163 70</p>
                         <a href="schedule.html" class="btn btn-light">See Schedule</a>
                         <a href="#" class="btn btn-light" data-toggle="modal" data-target="#buyNowModal">Buy Now</a>
                     </div>
@@ -91,19 +98,21 @@
             </div>
         </div>
     </div>
+    </section>
 <!-- /pricing sections -->
 <!-- buy now modal-->
+    <section class="buynow-modal">
     <div class="modal" tabindex="-1" role="dialog" id="buyNowModal">
         <div class="modal-dialog" role="document">
-            <div class="modal-content">
+            <div class="modal-content buynow-modal">
                 <div class="modal-header">
-                    <h5 class="modal-title">Make your Popfit purchase!</h5>
+                    <h3 class="modal-title">Make your Popfit purchase!</h3>
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                         <span aria-hidden="true">&times;</span>
                     </button>
                 </div>
                 <div class="modal-body">
-                    <form action="" method="get">
+                    <form action="" method="POST">
                         <div class="form-group">
                             <label for="exampleInputEmail1">Email address</label>
                             <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email" required>
@@ -168,7 +177,9 @@
             </div>
         </div>
     </div>
+</section>
 <!-- /buy now modal-->
+</main>
 <!-- footer -->
 <footer class="container-fluid bg-light">
     <div id="footer-details" class="row">
