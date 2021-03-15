@@ -172,6 +172,10 @@ label {
     width: 100%;
 }
 
+td a {
+    width: 185px;
+}
+
 
 /* media queries*/
 /* Small devices (mobile phones, 375px and down) */
