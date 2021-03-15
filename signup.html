@@ -1,234 +1,367 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" type="text/css" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.1.1/css/hover-min.css" type="text/css" />
-    <link href="https://fonts.googleapis.com/css?family=Roboto:400,700" rel="stylesheet">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+      integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
+      type="text/css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.1.1/css/hover-min.css"
+      type="text/css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto:400,700"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="assets/css/style.css" type="text/css" />
+    <link rel="shortcut icon" href="assets/images/popfitfavicon.png" />
     <title>Popfit</title>
-</head>
-<body>
-
-<div class="page-container">
-<!--navbar-->
-   <nav class="navbar navbar-light navbar-expand-md bg-light justify-content-center">
+  </head>
+  <body>
+    <div class="page-container">
+      <!--navbar-->
+      <nav
+        class="navbar navbar-light navbar-expand-md bg-light justify-content-center"
+      >
         <a class="navbar-brand" href="index.html">
-            <img src="assets/images/logo.png" alt="Popfit Logo">
+          <img src="assets/images/logo.png" alt="Popfit Logo" />
         </a>
-        <button class="navbar-toggler ml-1" type="button" data-toggle="collapse" data-target="#collapsingNavbar2">
-            <span class="navbar-toggler-icon"></span>
+        <button
+          class="navbar-toggler ml-1"
+          type="button"
+          data-toggle="collapse"
+          data-target="#collapsingNavbar2"
+        >
+          <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="navbar-collapse collapse justify-content-center" id="collapsingNavbar2">
-            <ul class="navbar-nav nav-fill w-100">
-                <li class="nav-item d-flex align-items-center justify-content-center">
-                        <a class="nav-link" href="pricing.html">Pricing</a>
-                    </li>
-                    <li class="nav-item d-flex align-items-center justify-content-center">
-                        <a class="nav-link" href="schedule.html">Schedule</a>
-                    </li>
-                <li class="nav-item">
-                        <a class="nav-link d-none d-md-block" href="index.html"><span>Popfit</span></a>
-                    </li>
-                <li class="nav-item d-flex align-items-center justify-content-center">
-                        <a class="nav-link" href="classes.html">Classes</a>
-                    </li>
-                    <li class="nav-item d-flex align-items-center justify-content-center">
-                        <a class="nav-link" href="signup.html">Sign In / Sign Up</a>
-                    </li>
-            </ul>
+        <div
+          class="navbar-collapse collapse justify-content-center"
+          id="collapsingNavbar2"
+        >
+          <ul class="navbar-nav nav-fill w-100">
+            <li
+              class="nav-item d-flex align-items-center justify-content-center"
+            >
+              <a class="nav-link" href="pricing.html">Pricing</a>
+            </li>
+            <li
+              class="nav-item d-flex align-items-center justify-content-center"
+            >
+              <a class="nav-link" href="schedule.html">Schedule</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link d-none d-md-block" href="index.html"
+                ><span>Popfit</span></a
+              >
+            </li>
+            <li
+              class="nav-item d-flex align-items-center justify-content-center"
+            >
+              <a class="nav-link" href="classes.html">Classes</a>
+            </li>
+            <li
+              class="nav-item d-flex align-items-center justify-content-center"
+            >
+              <a class="nav-link" href="signup.html">Sign In / Sign Up</a>
+            </li>
+          </ul>
         </div>
-    </nav>
-<!-- /navbar -->
-<!-- alert -->
-    <div class="container-fluid safety d-flex align-items-center">
-        <div class="row align-items-center no-gutters">
-            <div class="d-none d-md-block col-md-4 safe-text">Find out how we're keeping you safe</div>
-            <div class="d-none d-md-block col-md-4"><hr></div>
-            <div class="col-md-4"><a id="safety-measures" class="btn btn-sm btn-light" href="">Safety Measures</a></div>
-            
+      </nav>
+      <!-- /navbar -->
+      <!-- alert -->
+      <section class="alert-bar">
+        <div class="container-fluid safety">
+          <div class="row no-gutters">
+            <div class="d-none d-md-block col-md-6 safe-text uppercase">
+              Find out how we're keeping you safe
+            </div>
+            <div class="col-md-6">
+              <a id="safety-measures" class="btn btn-sm btn-light" href=""
+                >Safety Measures</a
+              >
+            </div>
+          </div>
         </div>
-    </div> 
-<!-- /alert -->
-<div class="page-content">
-<!-- Form -->
-    <div class="container-md">
-    <h1>Sign up</h1>
-    <form class="signup-form" action="signup.html" method="get">
-        <div class="form-group row">
-            <label for="inputEmail" class="col-sm-3 col-form-label">Email *</label>
-            <div class="col-sm-9">
-                <input type="email" class="form-control" id="inputEmail" aria-label="inputEmaillabel" required>
-                <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+      </section>
+      <!-- /alert -->
+      <div class="page-content">
+        <!-- Form -->
+        <div class="container-md">
+          <h1>Sign up</h1>
+          <form class="signup-form" action="signup.html" method="POST">
+            <div class="form-group row">
+              <label for="inputEmail" class="col-sm-3 col-form-label"
+                >Email *</label
+              >
+              <div class="col-sm-9">
+                <input
+                  type="email"
+                  class="form-control"
+                  id="inputEmail"
+                  aria-label="inputEmaillabel"
+                  required
+                />
+                <small id="emailHelp" class="form-text text-muted"
+                  >We'll never share your email with anyone else.</small
+                >
+              </div>
             </div>
-        </div> 
-        <div class="form-group row">
-            <label for="inputPassword1" class="col-sm-3 col-form-label">Password *</label>
-            <div class="col-sm-9">
-                <input type="password" class="form-control" id="inputPassword1" aria-label="inputPassword1label" required>
+            <div class="form-group row">
+              <label for="inputPassword1" class="col-sm-3 col-form-label"
+                >Password *</label
+              >
+              <div class="col-sm-9">
+                <input
+                  type="password"
+                  class="form-control"
+                  id="inputPassword1"
+                  aria-label="inputPassword1label"
+                  required
+                />
+              </div>
             </div>
-        </div>
-        <div class="form-group row">
-            <label for="inputPassword2" class="col-sm-3 col-form-label">Confirm Password *</label>
-            <div class="col-sm-9">
-                <input type="password" class="form-control" id="inputPassword2" aria-label="inputPassword2label" required>
+            <div class="form-group row">
+              <label for="inputPassword2" class="col-sm-3 col-form-label"
+                >Confirm Password *</label
+              >
+              <div class="col-sm-9">
+                <input
+                  type="password"
+                  class="form-control"
+                  id="inputPassword2"
+                  aria-label="inputPassword2label"
+                  required
+                />
+              </div>
             </div>
-        </div>
-        <div class="form-group row">
-            <label for="fname" class="col-sm-3 col-form-label">First Name *</label>
-            <div class="col-sm-9">
-                <input class="form-control" id="fname" type="text" aria-label="fnamelabel" required>
+            <div class="form-group row">
+              <label for="fname" class="col-sm-3 col-form-label"
+                >First Name *</label
+              >
+              <div class="col-sm-9">
+                <input
+                  class="form-control"
+                  id="fname"
+                  type="text"
+                  aria-label="fnamelabel"
+                  required
+                />
+              </div>
             </div>
-        </div>
-        <div class="form-group row">
-            <label for="lname" class="col-sm-3 col-form-label">Last Name *</label>
-            <div class="col-sm-9">
-                <input class="form-control" id="lname" type="text" aria-label="lnamelabel" required>
+            <div class="form-group row">
+              <label for="lname" class="col-sm-3 col-form-label"
+                >Last Name *</label
+              >
+              <div class="col-sm-9">
+                <input
+                  class="form-control"
+                  id="lname"
+                  type="text"
+                  aria-label="lnamelabel"
+                  required
+                />
+              </div>
             </div>
-        </div>  
-        <div class="form-group row">
-            <label for="postcode" class="col-sm-3 col-form-label">Postcode *</label>
-            <div class="col-sm-9">
-                <input class="form-control" id="postcode" type="text" aria-label="postcodelabel" required>
+            <div class="form-group row">
+              <label for="postcode" class="col-sm-3 col-form-label"
+                >Postcode *</label
+              >
+              <div class="col-sm-9">
+                <input
+                  class="form-control"
+                  id="postcode"
+                  type="text"
+                  aria-label="postcodelabel"
+                  required
+                />
+              </div>
             </div>
-        </div>
-        <div class="form-group row">
-            <label for="city" class="col-sm-3 col-form-label">City *</label>
-            <div class="col-sm-9">
-                <input class="form-control" id="city" type="text" aria-label="citylabel" required>
+            <div class="form-group row">
+              <label for="city" class="col-sm-3 col-form-label">City *</label>
+              <div class="col-sm-9">
+                <input
+                  class="form-control"
+                  id="city"
+                  type="text"
+                  aria-label="citylabel"
+                  required
+                />
+              </div>
             </div>
-        </div>
-        <!-- <fieldset class="form-group row">
-            <legend class="col-3 d-flex label-signup">Date of Birth</legend>
-            <div class="col-sm-2">
-                <label for="day" class="hidden col-form-label"></label>
-                <input class="form-control" type="number" placeholder="Day" id="day" min="1" max="31" required>
-            </div>
-            <div class="col-sm-5">
-                <label for="month" class="hidden col-form-label"></label>
-                <select class="custom-select" id="month" required>
-                    <option selected disabled value="">Month</option>
-                    <option>January</option>
-                    <option>February</option>
-                    <option>March</option>
-                    <option>April</option>
-                    <option>May</option>
-                    <option>June</option>
-                    <option>July</option>
-                    <option>August</option>
-                    <option>September</option>
-                    <option>October</option>
-                    <option>November</option>
-                    <option>December</option>
-                </select>
-            </div>
-            <div class="col-sm-2">
-                <label for="year" class="hidden col-form-label"></label>
-                <input class="form-control" type="number" placeholder="Year - YYYY" id="year" min="1900" max="2021" required>
-            </div>
-        </fieldset>            -->
-        
-        <div class="form-group row">
-            <label for="day-dob" class="col-sm-3 col-form-label">Date of Birth *</label>
-            <div class="col-sm-2">
-                <input class="form-control" type="number" placeholder="Day" id="day-dob" min="1" max="31" required>
-            </div>
-            <div class="col-sm-5">
+            <!-- <fieldset class="form-group row">
+                <legend class="col-3 d-flex label-signup">Date of Birth</legend>
+                <div class="col-sm-2">
+                    <label for="day" class="hidden col-form-label"></label>
+                    <input class="form-control" type="number" placeholder="Day" id="day" min="1" max="31" required>
+                </div>
+                <div class="col-sm-5">
+                    <label for="month" class="hidden col-form-label"></label>
+                    <select class="custom-select" id="month" required>
+                        <option selected disabled value="">Month</option>
+                        <option>January</option>
+                        <option>February</option>
+                        <option>March</option>
+                        <option>April</option>
+                        <option>May</option>
+                        <option>June</option>
+                        <option>July</option>
+                        <option>August</option>
+                        <option>September</option>
+                        <option>October</option>
+                        <option>November</option>
+                        <option>December</option>
+                    </select>
+                </div>
+                <div class="col-sm-2">
+                    <label for="year" class="hidden col-form-label"></label>
+                    <input class="form-control" type="number" placeholder="Year - YYYY" id="year" min="1900" max="2021" required>
+                </div>
+            </fieldset>            -->
+
+            <div class="form-group row">
+              <label for="day-dob" class="col-sm-3 col-form-label"
+                >Date of Birth *</label
+              >
+              <div class="col-sm-2">
+                <input
+                  class="form-control"
+                  type="number"
+                  placeholder="Day"
+                  id="day-dob"
+                  min="1"
+                  max="31"
+                  required
+                />
+              </div>
+              <div class="col-sm-5">
                 <label for="month-dob" class="sr-only"></label>
-                <select class="custom-select" id="month-dob" aria-label="month of birth" required>
-                    <option selected disabled value="">Month</option>
-                    <option>January</option>
-                    <option>February</option>
-                    <option>March</option>
-                    <option>April</option>
-                    <option>May</option>
-                    <option>June</option>
-                    <option>July</option>
-                    <option>August</option>
-                    <option>September</option>
-                    <option>October</option>
-                    <option>November</option>
-                    <option>December</option>
+                <select
+                  class="custom-select"
+                  id="month-dob"
+                  aria-label="month of birth"
+                  required
+                >
+                  <option selected disabled value="">Month</option>
+                  <option>January</option>
+                  <option>February</option>
+                  <option>March</option>
+                  <option>April</option>
+                  <option>May</option>
+                  <option>June</option>
+                  <option>July</option>
+                  <option>August</option>
+                  <option>September</option>
+                  <option>October</option>
+                  <option>November</option>
+                  <option>December</option>
                 </select>
-            </div>
-            <div class="col-sm-2">
+              </div>
+              <div class="col-sm-2">
                 <label for="year-dob" class="sr-only"></label>
-                <input class="form-control" type="number" placeholder="Year - YYYY" id="year-dob" min="1900" max="2021" aria-label="year of birth" required>
+                <input
+                  class="form-control"
+                  type="number"
+                  placeholder="Year - YYYY"
+                  id="year-dob"
+                  min="1900"
+                  max="2021"
+                  aria-label="year of birth"
+                  required
+                />
+              </div>
             </div>
-        </div>            
-        <div class="form-group row">
-            <div class="container text-center">
-                <button type="submit" class="btn btn-light" value="Submit">Sign up</button>
+            <div class="form-group row">
+              <div class="container text-center">
+                <button type="submit" class="btn btn-light" value="Submit">
+                  Sign up
+                </button>
+              </div>
             </div>
-        </div> 
-    </form>
+          </form>
+        </div>
+
+        <!-- /form -->
+        <!-- about us -->
+
+        <!-- /about us -->
+        <!-- features -->
+
+        <!-- /features -->
+      </div>
+      <!-- footer -->
+      <footer class="container-fluid bg-light">
+        <div id="footer-details" class="row">
+          <div class="col-sm-2">
+            <h5 class="uppercase">Hours:</h5>
+            <h6>M-S: 6am - 8pm</h6>
+          </div>
+          <div class="col-sm-2">
+            <h5 class="uppercase">Phone:</h5>
+            <h6><a href="tel:07719555555">07719 555555</a></h6>
+          </div>
+          <div class="col-sm-2">
+            <h5 class="uppercase">Email:</h5>
+            <h6><a href="mailto:popfit@popfit.com">popfit@gmail.com</a></h6>
+          </div>
+          <div class="col-sm-4">
+            <ul class="list-inline d-flex justify-content-around">
+              <li class="list-inline-item">
+                <a
+                  href="https://www.facebook.com"
+                  target="_blank"
+                  alt="facebook link"
+                  ><i class="fab fa-facebook-f"></i
+                ></a>
+              </li>
+              <li class="list-inline-item">
+                <a
+                  href="https://www.instagram.com"
+                  target="_blank"
+                  alt="instagram link"
+                  ><i class="fab fa-instagram"></i
+                ></a>
+              </li>
+              <li class="list-inline-item">
+                <a
+                  href="https://www.youtube.com"
+                  target="_blank"
+                  alt="youtube link"
+                  ><i class="fab fa-youtube"></i
+                ></a>
+              </li>
+            </ul>
+          </div>
+
+          <div
+            class="col-sm-2 d-flex justify-content-center align-items-center"
+          >
+            <h5 class="uppercase general-sub">
+              <a id="faq" href="faq.html">FAQ</a>
+            </h5>
+          </div>
+        </div>
+      </footer>
     </div>
- 
-
-<!-- /form -->
-<!-- about us -->
-
-<!-- /about us --> 
-<!-- features -->
-
-<!-- /features --> 
-</div>
-<!-- footer -->
-<footer class="container-fluid bg-light">
-    <div id="footer-details" class="row">
-      <div class="col-sm-2">
-        <h5 class="uppercase">Hours:</h5>
-        <h6>M-S: 6am - 8pm</h6>
-      </div>
-      <div class="col-sm-2">
-        <h5 class="uppercase">Phone:</h5>
-        <h6><a href="tel:07719555555">07719 555555</a></h6>
-      </div>
-      <div class="col-sm-2">
-        <h5 class="uppercase">Email:</h5>
-        <h6><a href="mailto:popfit@popfit.com">popfit@gmail.com</a></h6>
-      </div>
-      <div class="col-sm-4">
-        <ul class="list-inline d-flex justify-content-around">
-          <li class="list-inline-item">
-            <a
-              href="https://www.facebook.com"
-              target="_blank"
-              alt="facebook link"
-              ><i class="fab fa-facebook-f"></i
-            ></a>
-          </li>
-          <li class="list-inline-item">
-            <a
-              href="https://www.instagram.com"
-              target="_blank"
-              alt="instagram link"
-              ><i class="fab fa-instagram"></i
-            ></a>
-          </li>
-          <li class="list-inline-item">
-            <a
-              href="https://www.youtube.com"
-              target="_blank"
-              alt="youtube link"
-              ><i class="fab fa-youtube"></i
-            ></a>
-          </li>
-        </ul>
-      </div>
-
-      <div class="col-sm-2 d-flex justify-content-center align-items-center">
-        <h5 class="uppercase general-sub">
-          <a id="faq" href="faq.html">FAQ</a>
-        </h5>
-      </div>
-    </div>
-  </footer>
-</div>
-<!-- /footer --> 
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
-</body>
+    <!-- /footer -->
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>

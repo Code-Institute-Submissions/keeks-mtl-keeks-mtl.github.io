@@ -1,6 +1,7 @@
 body {
     font-family: 'Roboto', sans-serif;
 }
+
 h1 {
     text-align: center;
     color: #7c7c7d;
@@ -36,7 +37,6 @@ img {
     display: block;
 }
 
-/* Block dividers */
 /* Buttons */
 
 .btn-light {
@@ -46,12 +46,8 @@ img {
 }
 
 /* Alert */
-/* #85d9e1, #f1a293; */
 .navbar-light {
     background-image: linear-gradient(to bottom, #f8f9fa, #f8f9fa, #f8f9fa, #f8f9fa, #f8f9fa, #f9f9fa, #f9fafb, #fafafb, #fbfbfc, #fdfcfd, #fefefe, #ffffff);
-}
-.alert-bar {
-
 }
 .safety {
     color: #7c7c7d;
@@ -63,11 +59,8 @@ img {
     margin-bottom: 1rem;
     height: 3.5rem;
     text-align: center;
-    /* font-weight: 700; */
 }
-/* #7c7c7d, rgba(124,124,125,0.2) */
 
-/* Page Headers */
 /* About us */
 
 #aboutus-section {
@@ -75,7 +68,6 @@ img {
     padding: 2% 15%;
     margin-bottom: 2%;
 }
-
 #aboutus-section p{
     margin-top: 20px;
     margin-bottom: 20px;
@@ -93,30 +85,25 @@ img {
 
 /* Footer */
 
-
 footer {
     text-align: center;
 }
 footer a {
     color: black;
 }
-
 i {
     color: black;
 }
 #faq {
     color: black;
 }
-
 #footer-details div {
     padding-top: 1em;
 }
-
 .list-inline-item {
     font-size: 2.5em;
-    /* padding-right: 50px;
-    padding-left: 50px; */
 }
+
 /* form */
 
 form .row {
@@ -132,29 +119,25 @@ label {
     padding-bottom: 3%;
     min-height: 65vh;
 }
-
 .pricing-box a{
     margin-bottom: 3%;
 }
 
 /* classes */
 .classes-box{
-    /* padding-bottom: 3%; */
     padding: 0 3% 3% 3%;
 }
-
 .label-signup {
     font-size: 1em;
     display: inline;
     text-align: right;
     float: left;
 }
-/* .container-wrapper-blue {
-    background-image: url(../images/watercolor-background.jpg);
-} */
-
 
 /* signup */
+.signup-form button{
+    width: 250px;
+}
 
 /* Buy now modal */
 .buynow-modal span{
@@ -186,5 +169,10 @@ td a {
     .modal-body .col-6 {
         font-size: 15px;
         padding-left: 0;
+    }
+}
+@media only screen and (max-width: 326px) {
+    .navbar-toggler-icon {
+        font-size: 70px;
     }
 }
