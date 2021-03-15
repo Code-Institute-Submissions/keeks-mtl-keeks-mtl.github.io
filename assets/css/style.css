@@ -1,0 +1,170 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+h1 {
+    text-align: center;
+    color: #7c7c7d;
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+/* Containers */
+
+.container-fluid{
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.row {
+    width: 100%;
+    margin: 0;
+}
+
+.page-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.page-content {
+  flex: 1;
+}
+
+/* Navbar */
+
+span {
+    font-size: 5rem;
+}
+
+/* Jumbotron */
+
+img {
+    width: 100%;
+    height: auto;
+    padding: 0;
+    margin: 0;
+    display: block;
+}
+
+/* Block dividers */
+/* Buttons */
+
+.btn-light {
+    background-color: #f1a293;
+    border-color: #fadad4;
+    border-radius: 12px;
+}
+
+/* Alert */
+/* #85d9e1, #f1a293; */
+.navbar-light {
+    background-image: linear-gradient(to bottom, #f8f9fa, #f8f9fa, #f8f9fa, #f8f9fa, #f8f9fa, #f9f9fa, #f9fafb, #fafafb, #fbfbfc, #fdfcfd, #fefefe, #ffffff);
+}
+.safety {
+    color: #7c7c7d;
+    /* background-color: rgba(124,124,125,0.2); */
+    background-image: url(../images/pkwatercolor-background.jpg);
+    background-position: left bottom;
+    padding: .75% 0;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    height: 3.5rem;
+    text-align: center;
+    /* font-weight: 700; */
+}
+/* #7c7c7d, rgba(124,124,125,0.2) */
+
+/* Page Headers */
+/* About us */
+
+#aboutus-section {
+    margin-top: 2%;
+}
+
+/* Features */
+
+.features-box {
+    padding-bottom: 5%;
+}
+
+/* Footer */
+
+
+footer {
+    text-align: center;
+}
+
+i {
+    color: black;
+}
+
+#footer-details div {
+    padding-top: 1em;
+}
+
+.list-inline-item {
+    font-size: 2.5em;
+    /* padding-right: 50px;
+    padding-left: 50px; */
+}
+/* form */
+
+form .row {
+    margin: 2% 0;
+}
+
+label {
+    text-align: right;
+}
+
+/* pricing */
+.pricing-box{
+    padding-bottom: 3%;
+    min-height: 65vh;
+}
+
+.pricing-box a{
+    margin-bottom: 3%;
+}
+
+/* classes */
+.classes-box{
+    /* padding-bottom: 3%; */
+    padding: 0 3% 3% 3%;
+}
+
+.label-signup {
+    font-size: 1em;
+    display: inline;
+    text-align: right;
+    float: left;
+}
+/* .container-wrapper-blue {
+    background-image: url(../images/watercolor-background.jpg);
+} */
+
+ .modal-radios {
+    text-align: center;
+}
+
+/* signup */
+
+/* Buy now modal */
+.modal-dialog p {
+    text-align: center;
+}
+
+.modal-dialog h6 {
+    text-align: center;
+    text-decoration: underline;
+}
+
+/* media queries*/
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (max-width: 575px) {
+    .signup-form label {
+        text-align: left;
+    }
+}
