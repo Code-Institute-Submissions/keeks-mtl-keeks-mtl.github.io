@@ -10,18 +10,6 @@ h1 {
     text-transform: uppercase;
 }
 
-/* Containers */
-
-.container-fluid{
-    padding-left: 0;
-    padding-right: 0;
-}
-
-.row {
-    width: 100%;
-    margin: 0;
-}
-
 .page-container {
   display: flex;
   flex-direction: column;
@@ -62,6 +50,9 @@ img {
 .navbar-light {
     background-image: linear-gradient(to bottom, #f8f9fa, #f8f9fa, #f8f9fa, #f8f9fa, #f8f9fa, #f9f9fa, #f9fafb, #fafafb, #fbfbfc, #fdfcfd, #fefefe, #ffffff);
 }
+.alert-bar {
+
+}
 .safety {
     color: #7c7c7d;
     /* background-color: rgba(124,124,125,0.2); */
@@ -81,12 +72,23 @@ img {
 
 #aboutus-section {
     margin-top: 2%;
+    padding: 2% 15%;
+    margin-bottom: 2%;
+}
+
+#aboutus-section p{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 1.5rem;
 }
 
 /* Features */
 
 .features-box {
     padding-bottom: 5%;
+}
+.link-cards a {
+    display: block;
 }
 
 /* Footer */
@@ -95,8 +97,14 @@ img {
 footer {
     text-align: center;
 }
+footer a {
+    color: black;
+}
 
 i {
+    color: black;
+}
+#faq {
     color: black;
 }
 
@@ -163,8 +171,8 @@ label {
 
 /* media queries*/
 /* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (max-width: 575px) {
+/* @media only screen and (max-width: 575px) {
     .signup-form label {
         text-align: left;
     }
-}
+} */
