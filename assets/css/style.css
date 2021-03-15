@@ -158,8 +158,16 @@ label {
 td a {
     width: 185px;
 }
-
-
+/* faq*/
+.faq-section {
+    margin-bottom: 3%;
+}
+.faq-section button {
+    color:#7c7c7d;
+}
+.faq-section button:hover {
+    color: #f1a293;
+}
 /* media queries*/
 /* Small devices (mobile phones, 375px and down) */
 @media only screen and (max-width: 375px) {
@@ -173,6 +181,6 @@ td a {
 }
 @media only screen and (max-width: 326px) {
     .navbar-toggler-icon {
-        font-size: 70px;
+        font-size: 49px;
     }
 }
