@@ -39,7 +39,7 @@ An important aspect of the planning for this project were the elements of User-E
 - As the site owner, I want to increase video traffic.
 
 ### wireframes
-> - ![Wireframes](https://github.com/keeks-mtl/keeks-mtl.github.io/blob/main/assets/wireframes/popfit-wireframe.pdf): A 5 page website.
+- [Wireframes](https://github.com/keeks-mtl/keeks-mtl.github.io/blob/main/assets/wireframes/popfit-wireframe.pdf): A 5 page website.
 
 The initial wireframes and the current project differ in some minor ways: 
 - The desktop version navbar has different/clearer terms to illustrate what you can find on the pages.
@@ -156,63 +156,62 @@ password validation
 
 ### Navigation bar
 1. Plan
-* Make sure it's fixed at top so that it is always easily found
-* On every page every link should take you to where you are supposed to go 
-* On mobile devices the navbar should turn to hamburger so it's visible and drop-down menu should appear so 
-sections can be chosen
+    * Make sure it's fixed at top so that it is always easily found
+    * On every page every link should take you to where you are supposed to go 
+    * On mobile devices the navbar should turn to hamburger so it's visible and drop-down menu should appear so sections can be chosen
 
 2. Implementation
-* The navbar was created using Bootstrap so that it was fully responsive
-* In the mobile implementation the Popfit header is hidden as a link
+    * The navbar was created using Bootstrap so that it was fully responsive
+    * In the mobile implementation the Popfit header is hidden as a link
 
 3. Test
-* Clicked on every link on every page & checked everypage on different breakpoints to ensure responsiveness
+    * Clicked on every link on every page & checked everypage on different breakpoints to ensure responsiveness
 
 4. Verdict
-* Passed all the tests after so changes (mostly on much smaller mobile devices)
+    * Passed all the tests after so changes (mostly on much smaller mobile devices)
 
 ### Modals
 1. Plan
-* Wanted a modal to pop up to choose a buying option for quick decision making to convert sales
-* For the modal to be clearly laid out
+    * Wanted a modal to pop up to choose a buying option for quick decision making to convert sales
+    * For the modal to be clearly laid out
 
 2. Implementation
-* Bootstrap was to create the modal however, it is currently missing the necessary javascript
-* Used colours that went with website so that it carried the branding theme and didn't feel seperate 
-* Overwrote Bootstrap CSS to go with website
+    * Bootstrap was to create the modal however, it is currently missing the necessary javascript
+    * Used colours that went with website so that it carried the branding theme and didn't feel seperate 
+    * Overwrote Bootstrap CSS to go with website
 
 3.  Test
-* Tested modal on different devices & different browsers
-* Made sure buttons work (both submit and close)
-* Made sure link worked
-* Make sure all required fields are validated before it can be submitted
+    * Tested modal on different devices & different browsers
+    * Made sure buttons work (both submit and close)
+    * Made sure link worked
+    * Make sure all required fields are validated before it can be submitted
 
 4. Verdict
-* The modal opened up when right button clicked
-* The formatting worked across multiple devices
+    * The modal opened up when right button clicked
+    * The formatting worked across multiple devices
 
 ### Contact form
 
 1. Plan
-* Include contact form that is clearly & logically laid out
-* Required information are clearly marked and show when empty when trying to submit
+    * Include contact form that is clearly & logically laid out
+    * Required information are clearly marked and show when empty when trying to submit
 
 2. Implementation
-* Created signup.html
-* Used Bootstrap for responsiveness and validation
-* Form styled in accordance with website branding
+    * Created signup.html
+    * Used Bootstrap for responsiveness and validation
+    * Form styled in accordance with website branding
 
 3. Test
-* Tested form with validator and saw that label & input didn't correlate
-* Made sure all required fields were filled in and gave clear indicators when empty
-* Fixed problem with radio coding so they worked correctly
-* Added placeholders for Date of birth section because one main visible label
-* Had to research how to make it accesible because of labelling decision
-* Info not sent because has been covered in course yet
+    * Tested form with validator and saw that label & input didn't correlate
+    * Made sure all required fields were filled in and gave clear indicators when empty
+    * Fixed problem with radio coding so they worked correctly
+    * Added placeholders for Date of birth section because one main visible label
+    * Had to research how to make it accesible because of labelling decision
+    * Info not sent because has been covered in course yet
 
 4. Verdict
-* Form worked and looked the way i wanted accross all devices
-* Isn't sent correctly yet because hasn't been covered in course
+    * Form worked and looked the way i wanted accross all devices
+    * Isn't sent correctly yet because hasn't been covered in course
 
 ## Bugs
 ### Buy Now Modal Button
@@ -233,6 +232,7 @@ This project has been deployed using GitHub pages and I have used the following 
 * Commit pages on Visual Studio code & push them. 
 * Once that is finished go to link on Github pages that includes your Github username. 
 * Click on the Github Pages web address and you will see your project live.
+* There was an issue with cloning the initial Github repository to the live Github page so the original git commits on seen on the original [Github Respository](https://github.com/keeks-mtl/milestone-project-Popfit)
 
 **Forking**
 You can fork a project to make a copy without it affecting the main branch with this process:
@@ -257,7 +257,7 @@ I have used the following websites to get info & images for my website.
 
 - [Accessibleweb](https://accessibleweb.com/tips-tools-tutorials/font-awesome/ )
     - How to make Fontawesome icons accesible.
-- [selbekk](https://www.selbekk.io/blog/2019/08/how-to-make-your-footer-stick-to-the-bottom-of-your-page/)
+- [Selbekk](https://www.selbekk.io/blog/2019/08/how-to-make-your-footer-stick-to-the-bottom-of-your-page/)
     - How to get the footer to remain at bottom of page on pages without a lot of content. 
 - [Pixabay](https://pixabay.com/)
     - Watercolour for safety message background.
