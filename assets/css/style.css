@@ -91,11 +91,20 @@ footer {
 footer a {
     color: black;
 }
+footer a:hover {
+    color:#f1a293;
+}
+footer i:hover {
+    color: #f1a293;
+}
 i {
     color: black;
 }
 #faq {
     color: black;
+}
+#faq:hover {
+    color: #f1a293;
 }
 #footer-details div {
     padding-top: 1em;

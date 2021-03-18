@@ -44,8 +44,6 @@ A intuitive user experience is important which is why users will find all the in
   * [Credits](#credits)
     + [Content - Media -Inspiration](#content---media--inspiration)
     + [Acknowledgements](#acknowledgements)
-
-<small><i><a href='http://ecotrust-canada.github.io/markdown-toc/'>Table of contents generated with markdown-toc</a></i></small>
  
 ## UX
 
