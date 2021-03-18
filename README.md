@@ -7,12 +7,51 @@ Welcome from Popfit! This class based gym is the perfect setting to sweat and ha
 A intuitive user experience is important which is why users will find all the information they are looking for in a clear way. 
 
 ## Table of Contents
+- [Popfit](#popfit)
+  * [Goal For This Project](#goal-for-this-project)
+  * [UX](#ux)
+    + [User Goals](#user-goals)
+    + [User Stories](#user-stories)
+    + [Site Owners Goals](#site-owners-goals)
+    + [wireframes](#wireframes)
+    + [Design Choices](#design-choices)
+    + [Fonts](#fonts)
+    + [Icons](#icons)
+    + [Colours](#colours)
+  * [Features](#features)
+    + [Navigation](#navigation)
+    + [Jumbotron](#jumbotron)
+    + [Cards](#cards)
+    + [Pricing](#pricing)
+    + [Schedule](#schedule)
+    + [Signup](#signup)
+    + [Features Left to Implement](#features-left-to-implement)
+  * [Technologies Used](#technologies-used)
+    + [Languages](#languages)
+    + [Libraries, Frameworks & Tools](#libraries--frameworks---tools)
+  * [Testing](#testing)
+    + [Navigation bar](#navigation-bar)
+    + [Modals](#modals)
+    + [Contact form](#contact-form)
+  * [Bugs](#bugs)
+    + [Buy Now Modal Button](#buy-now-modal-button)
+      - [Bug](#bug)
+      - [Fix](#fix)
+  * [Deployment](#deployment)
+    + [Publishing](#publishing)
+    + [Forking](#forking)
+    + [Cloning](#cloning)
+  * [Credits](#credits)
+    + [Content - Media -Inspiration](#content---media--inspiration)
+    + [Acknowledgements](#acknowledgements)
+
+<small><i><a href='http://ecotrust-canada.github.io/markdown-toc/'>Table of contents generated with markdown-toc</a></i></small>
  
 ## UX
 
 An important aspect of the planning for this project were the elements of User-Experience. Planning the project through this approach created a useful guide to understand the user's needs and streamline the development of the site. My personal goal was to create a positive user experience. 
 
-## User Goals
+### User Goals
 
 - Website with important information
 - Contact info about the gym
@@ -21,7 +60,7 @@ An important aspect of the planning for this project were the elements of User-E
 - Visual elements that catch your eye 
 - See schedule of classes & descriptions
 
-## User Stories
+### User Stories
 - As a user, I want to easily find contact information of the gym.
 - As a user, I want to find information of prices for gym services.
 - As a user, I want to become a member online. 
@@ -32,7 +71,7 @@ An important aspect of the planning for this project were the elements of User-E
 - As a user, I want to know more about the gym procedures.
 - As a user, forms should be easy to fill and submit. 
 
-## Site Owners Goals
+### Site Owners Goals
 - As the site owner, I want to attract new members.
 - As the site owner, I want to differenciate my self from other gyms.
 - As the site owner, I want to increase class bookings.
@@ -80,7 +119,7 @@ The initial wireframes and the current project differ in some minor ways:
 
 - The navigation bar was created using Bootstrap to ensure that it was fully responsive such as including a hamburger menu when viewed on smaller viewports. The navbar is fixed to the top so that users navigating the site can always have easy access to all sections of the site. 
 
-## Jumbotron
+### Jumbotron
 - The main page has a jumbotron to allow user's to get a feel for the gym that is 100% width and is fully responsive.  
 
 ### Cards
@@ -223,7 +262,7 @@ password validation
 
 This project has been deployed using GitHub pages and I have used the following process to do so:
 
-**Publishing**
+### Publishing
 
 * Opened Github pages. 
 * Opened Github desktop and created a repository using only my member name. 
@@ -234,14 +273,14 @@ This project has been deployed using GitHub pages and I have used the following 
 * Click on the Github Pages web address and you will see your project live.
 * There was an issue with cloning the initial Github repository to the live Github page so the original git commits on seen on the original [Github Respository](https://github.com/keeks-mtl/milestone-project-Popfit)
 
-**Forking**
+### Forking
 You can fork a project to make a copy without it affecting the main branch with this process:
 
 * log in to GitHub and find the repository that you wish to fork
 * Once you have clicked on the repository, on the top right-hand side you will see three options: 'unwatch' 'star' and 'fork'
 * Once the fork button is clicked, you will then have a copy of the repository in your Github account
 
-**Cloning**
+### Cloning
 You can clone/download your chosen repository to your local device by using this process:
 
 * Choose the Github repository that you wish to clone.
