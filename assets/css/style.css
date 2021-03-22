@@ -40,6 +40,10 @@ img {
     border-color: #fadad4;
     border-radius: 12px;
 }
+.btn-light.focus, .btn-light:focus {
+    background-color: #f1a293;
+    border-color: #fadad4;
+}
 
 /* Alert */
 .navbar-light {
@@ -181,7 +185,7 @@ td a {
 }
 /* media queries*/
 /* Small devices (mobile phones, 375px and down) */
-@media only screen and (max-width: 375px) {
+@media only screen and (max-width: 384px) {
     .modal-radios {
         padding: 0;
     }
