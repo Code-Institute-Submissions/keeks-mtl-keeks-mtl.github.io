@@ -1,288 +1,440 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" type="text/css" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.1.1/css/hover-min.css" type="text/css" />
-    <link href="https://fonts.googleapis.com/css?family=Roboto:400,700" rel="stylesheet">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+      integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
+      type="text/css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto:400"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="assets/css/style.css" type="text/css" />
     <link rel="shortcut icon" href="assets/images/popfitfavicon.png" />
     <title>Popfit</title>
-</head>
-<body>
+  </head>
+  <body>
     <div class="page-container">
-<!--navbar-->
-   <nav class="navbar navbar-light navbar-expand-md bg-light justify-content-center">
+      <!--navbar-->
+      <nav
+        class="navbar navbar-light navbar-expand-md bg-light justify-content-center"
+      >
         <a class="navbar-brand" href="index.html">
-            <img src="assets/images/logo.png" alt="Popfit Logo">
+          <img src="assets/images/logo.png" alt="Popfit Logo" />
         </a>
-        <button class="navbar-toggler ml-1" type="button" data-toggle="collapse" data-target="#collapsingNavbar2">
-            <span class="navbar-toggler-icon"></span>
+        <button
+          class="navbar-toggler ml-1"
+          type="button"
+          data-toggle="collapse"
+          data-target="#collapsingNavbar2"
+        >
+          <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="navbar-collapse collapse justify-content-center" id="collapsingNavbar2">
-            <ul class="navbar-nav nav-fill w-100">
-                <li class="nav-item d-flex align-items-center justify-content-center">
-                        <a class="nav-link" href="pricing.html">Pricing</a>
-                    </li>
-                    <li class="nav-item d-flex align-items-center justify-content-center">
-                        <a class="nav-link" href="schedule.html">Schedule</a>
-                    </li>
-                <li class="nav-item">
-                        <a class="nav-link d-none d-md-block" href="index.html"><span>Popfit</span></a>
-                    </li>
-                <li class="nav-item d-flex align-items-center justify-content-center">
-                        <a class="nav-link" href="classes.html">Classes</a>
-                    </li>
-                    <li class="nav-item d-flex align-items-center justify-content-center">
-                        <a class="nav-link" href="signup.html">Sign In / Sign Up</a>
-                    </li>
-            </ul>
+        <div
+          class="navbar-collapse collapse justify-content-center"
+          id="collapsingNavbar2"
+        >
+          <ul class="navbar-nav nav-fill w-100">
+            <li
+              class="nav-item d-flex align-items-center justify-content-center"
+            >
+              <a class="nav-link" href="pricing.html">Pricing</a>
+            </li>
+            <li
+              class="nav-item d-flex align-items-center justify-content-center"
+            >
+              <a class="nav-link" href="schedule.html">Schedule</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link d-none d-md-block" href="index.html"
+                ><span id="popfit-title">Popfit</span></a
+              >
+            </li>
+            <li
+              class="nav-item d-flex align-items-center justify-content-center"
+            >
+              <a class="nav-link" href="classes.html">Classes</a>
+            </li>
+            <li
+              class="nav-item d-flex align-items-center justify-content-center"
+            >
+              <a class="nav-link" href="signup.html">Sign In / Sign Up</a>
+            </li>
+          </ul>
         </div>
-    </nav>
-<!-- /navbar -->
-<!-- alert -->
-<section class="alert-bar">
-    <div class="container-fluid safety">
-      <div class="row no-gutters">
-        <div class="d-none d-md-block col-md-6 safe-text uppercase">
-          Find out how we're keeping you safe
+      </nav>
+      <!-- /navbar -->
+      <!-- alert -->
+      <section class="alert-bar">
+        <div class="container-fluid safety">
+          <div class="row h-100 align-items-center no-gutters">
+            <div class="d-none d-md-block col-md-6 safe-text text-uppercase">
+              <h6>Find out how we're keeping you safe</h6>
+            </div>
+            <div class="col-md-6">
+              <a
+                id="safety-measures"
+                class="btn btn-sm btn-light"
+                href="faq.html"
+                >Covid Policy</a
+              >
+            </div>
+          </div>
         </div>
-        <div class="col-md-6">
-          <a id="safety-measures" class="btn btn-sm btn-light" href="faq.html"
-            >Safety Measures</a
-          >
-        </div>
-      </div>
-    </div>
-  </section>
-<!-- /alert -->
-    <h1>FAQ</h1>
-<!-- FAQ -->
-    <div class="page-content">
-        <section class= "faq-section">
-            <div class="container">
+      </section>
+      <!-- /alert -->
+      <h1>FAQ</h1>
+      <!-- FAQ -->
+      <div class="page-content">
+        <section class="faq-section">
+          <div class="container">
             <div class="row justify-content-center">
-            <div class="col-md-8">
-            <div class="accordion" id="accordionExample">
-                <div class="card">
+              <div class="col-md-8">
+                <div class="accordion" id="faq-accordion">
+                  <div class="card">
                     <div class="card-header" id="headingOne">
                       <h2 class="mb-0">
-                        <button class="btn btn-link btn-block text-left" type="button" 
-                        data-toggle="collapse" data-target="#covidpolicy" aria-expanded="true"
-                        aria-controls="covidpolicy">
+                        <button
+                          class="btn btn-link btn-block text-left"
+                          type="button"
+                          data-toggle="collapse"
+                          data-target="#covidpolicy"
+                          aria-expanded="true"
+                          aria-controls="covidpolicy"
+                        >
                           Covid Policy
                         </button>
                       </h2>
                     </div>
-                    <div id="covidpolicy" class="collapse" aria-labelledby="headingOne" 
-                    data-parent="#accordionExample">
+                    <div
+                      id="covidpolicy"
+                      class="collapse"
+                      aria-labelledby="headingOne"
+                      data-parent="#faq-accordion"
+                    >
                       <div class="card-body">
-                        <strong>What we are doing to keep you safe</strong> 
-                        <p>Keeping you safe and healthy is our number one priority. That's why we're introducing 
-                        new cleaning procedures and social distancing measures, which have been guided by the 
-                        experts at UK Active, the UK government and Public Health England, Wales and Scotland
-                        </p>
-                        <strong>Symptom checks and cleanliness</strong> 
+                        <strong>What we are doing to keep you safe</strong>
                         <p>
-                        Before entering the centre, you’ll be 
-                        asked if you have any symptoms of COVID-19. If so, you’ll be unable to enter the centre. 
-                        You will also need to scan the NHS Test & Trace QR code before entering. If you don’t have 
-                        a smart phone, please ensure we have the most up-to-date contact details for when you swipe 
-                        in on your next visit. Members will be encouraged to sanitise their hands at reception and 
-                        additional hand sanitiser units have been positioned at key areas across the centre.
+                          Keeping you safe and healthy is our number one
+                          priority. That's why we're introducing new cleaning
+                          procedures and social distancing measures, which have
+                          been guided by the experts at UK Active, the UK
+                          government and Public Health England, Wales and
+                          Scotland
                         </p>
-                        <strong>Cleaning and disinfecting.</strong> 
+                        <strong>Symptom checks and cleanliness</strong>
                         <p>
-                        We'll be sanitising gym equipment throughout the day and cleaning the entire centre every night.
+                          Before entering the centre, you’ll be asked if you
+                          have any symptoms of COVID-19. If so, you’ll be unable
+                          to enter the centre. You will also need to scan the
+                          NHS Test & Trace QR code before entering. If you don’t
+                          have a smart phone, please ensure we have the most
+                          up-to-date contact details for when you swipe in on
+                          your next visit. Members will be encouraged to
+                          sanitise their hands at reception and additional hand
+                          sanitiser units have been positioned at key areas
+                          across the centre.
+                        </p>
+                        <strong>Cleaning and disinfecting.</strong>
+                        <p>
+                          We'll be sanitising gym equipment throughout the day
+                          and cleaning the entire centre every night.
                         </p>
                         <strong>Social distancing.</strong>
                         <p>
-                        You'll see new social distancing signs around the gym, including one-way systems where possible. 
-                        We're also limiting the number of members in each area and changing rooms. And we've reduced 
-                        the amount of equipment and lockers available.
+                          You'll see new social distancing signs around the gym,
+                          including one-way systems where possible. We're also
+                          limiting the number of members in each area and
+                          changing rooms. And we've reduced the amount of
+                          equipment and lockers available.
                         </p>
                       </div>
                     </div>
                   </div>
-                <div class="card">
-                  <div class="card-header" id="headingOne">
-                    <h2 class="mb-0">
-                      <button class="btn btn-link btn-block text-left" type="button" 
-                      data-toggle="collapse" data-target="#arrive" aria-expanded="true"
-                      aria-controls="collapseOne">
-                        When To Arrive
-                      </button>
-                    </h2>
-                  </div>
-                  <div id="arrive" class="collapse" aria-labelledby="headingOne" 
-                  data-parent="#accordionExample">
-                    <div class="card-body">
-                        Please arrive at least 5 min before start of class in front of the studio, you will not be authorised in the room if late
+                  <div class="card">
+                    <div class="card-header" id="headingTwo">
+                      <h2 class="mb-0">
+                        <button
+                          class="btn btn-link btn-block text-left"
+                          type="button"
+                          data-toggle="collapse"
+                          data-target="#arrive"
+                          aria-expanded="true"
+                          aria-controls="arrive"
+                        >
+                          When To Arrive
+                        </button>
+                      </h2>
+                    </div>
+                    <div
+                      id="arrive"
+                      class="collapse"
+                      aria-labelledby="headingTwo"
+                      data-parent="#faq-accordion"
+                    >
+                      <div class="card-body">
+                        <p>
+                          Please arrive at least 5 min before start of class in
+                          front of the studio, you will not be authorised in the
+                          room if late.
+                        </p>
+                      </div>
                     </div>
                   </div>
-                </div>
-                <div class="card">
-                  <div class="card-header" id="headingTwo">
-                    <h2 class="mb-0">
-                      <button class="btn btn-link btn-block text-left collapsed" type="button" 
-                      data-toggle="collapse" data-target="#needanything" aria-expanded="false" 
-                      aria-controls="collapseTwo">
-                        Do I Need Anything
-                      </button>
-                    </h2>
-                  </div>
-                  <div id="needanything" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
-                    <div class="card-body">
-                     Theoretically nothing besides a fitness outfit. We provide mats for the yoga, weights for Hiit, the bar for barre, filtered water fountains, smiles and good vibes!
-                    </div>
-                  </div>
-                </div>
-                <div class="card">
-                  <div class="card-header" id="headingThree">
-                    <h2 class="mb-0">
-                      <button class="btn btn-link btn-block text-left collapsed" type="button" 
-                      data-toggle="collapse" data-target="#pastinjuries" aria-expanded="false" 
-                      aria-controls="pastinjuries">
-                        What About Past Injuries
-                      </button>
-                    </h2>
-                  </div>
-                  <div id="pastinjuries" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
-                    <div class="card-body">
-                      Please make sure you mention them to the trainer upon arrival so that the programme can be adapted accordingly
-                    </div>
-                  </div>
-                </div>
-                <div class="card">
+                  <div class="card">
                     <div class="card-header" id="headingThree">
                       <h2 class="mb-0">
-                        <button class="btn btn-link btn-block text-left collapsed" type="button" 
-                        data-toggle="collapse" data-target="#showerpopfit" aria-expanded="false" 
-                        aria-controls="showerpopfit">
+                        <button
+                          class="btn btn-link btn-block text-left collapsed"
+                          type="button"
+                          data-toggle="collapse"
+                          data-target="#needanything"
+                          aria-expanded="false"
+                          aria-controls="needanything"
+                        >
+                          Do I Need Anything
+                        </button>
+                      </h2>
+                    </div>
+                    <div
+                      id="needanything"
+                      class="collapse"
+                      aria-labelledby="headingThree"
+                      data-parent="#faq-accordion"
+                    >
+                      <div class="card-body">
+                        <p>
+                          Theoretically nothing besides a fitness outfit. We
+                          provide mats for the yoga, weights for Hiit, the bar
+                          for barre, filtered water fountains, smiles and good
+                          vibes!
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="card">
+                    <div class="card-header" id="headingFour">
+                      <h2 class="mb-0">
+                        <button
+                          class="btn btn-link btn-block text-left collapsed"
+                          type="button"
+                          data-toggle="collapse"
+                          data-target="#pastinjuries"
+                          aria-expanded="false"
+                          aria-controls="pastinjuries"
+                        >
+                          What About Past Injuries
+                        </button>
+                      </h2>
+                    </div>
+                    <div
+                      id="pastinjuries"
+                      class="collapse"
+                      aria-labelledby="headingFour"
+                      data-parent="#faq-accordion"
+                    >
+                      <div class="card-body">
+                        <p>
+                          Please make sure you mention them to the trainer upon
+                          arrival so that the programme can be adapted
+                          accordingly.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="card">
+                    <div class="card-header" id="headingFive">
+                      <h2 class="mb-0">
+                        <button
+                          class="btn btn-link btn-block text-left collapsed"
+                          type="button"
+                          data-toggle="collapse"
+                          data-target="#showerpopfit"
+                          aria-expanded="false"
+                          aria-controls="showerpopfit"
+                        >
                           Can I Shower At Popfit
                         </button>
                       </h2>
                     </div>
-                    <div id="showerpopfit" class="collapse" aria-labelledby="headingThree" 
-                    data-parent="#accordionExample">
+                    <div
+                      id="showerpopfit"
+                      class="collapse"
+                      aria-labelledby="headingFive"
+                      data-parent="#faq-accordion"
+                    >
                       <div class="card-body">
-                        Absolutely, and you will enjoy it. We provide towels and Cowshed products. 
+                        <p>
+                          Absolutely, and you will enjoy it. We provide towels
+                          and Cowshed products.
+                        </p>
                       </div>
                     </div>
                   </div>
                   <div class="card">
-                    <div class="card-header" id="headingThree">
+                    <div class="card-header" id="headingSix">
                       <h2 class="mb-0">
-                        <button class="btn btn-link btn-block text-left collapsed" 
-                        type="button" data-toggle="collapse" data-target="#howtobook" 
-                        aria-expanded="false" aria-controls="howtobook">
+                        <button
+                          class="btn btn-link btn-block text-left collapsed"
+                          type="button"
+                          data-toggle="collapse"
+                          data-target="#howtobook"
+                          aria-expanded="false"
+                          aria-controls="howtobook"
+                        >
                           How Can I Book
                         </button>
                       </h2>
                     </div>
-                    <div id="howtobook" class="collapse" aria-labelledby="headingThree" 
-                    data-parent="#accordionExample">
+                    <div
+                      id="howtobook"
+                      class="collapse"
+                      aria-labelledby="headingSix"
+                      data-parent="#faq-accordion"
+                    >
                       <div class="card-body">
-                        Booking is easy, simply create a profile via our Website, select your class, and voila! You can also call and book a class if you'd like 
+                        <p>
+                          Booking is easy, simply create a profile via our
+                          Website, select your class, and voila! You can also
+                          call and book a class if you'd like.
+                        </p>
                       </div>
                     </div>
                   </div>
                   <div class="card">
-                    <div class="card-header" id="headingThree">
+                    <div class="card-header" id="headingSeven">
                       <h2 class="mb-0">
-                        <button class="btn btn-link btn-block text-left collapsed" 
-                        type="button" data-toggle="collapse" data-target="#cancellationpolicy" 
-                        aria-expanded="false" aria-controls="cancellationpolicy">
+                        <button
+                          class="btn btn-link btn-block text-left collapsed"
+                          type="button"
+                          data-toggle="collapse"
+                          data-target="#cancellationpolicy"
+                          aria-expanded="false"
+                          aria-controls="cancellationpolicy"
+                        >
                           What Is The Cancellation Policy
                         </button>
                       </h2>
                     </div>
-                    <div id="cancellationpolicy" class="collapse" aria-labelledby="headingThree" 
-                    data-parent="#accordionExample">
+                    <div
+                      id="cancellationpolicy"
+                      class="collapse"
+                      aria-labelledby="headingSeven"
+                      data-parent="#faq-accordion"
+                    >
                       <div class="card-body">
-                        We have a minimum 12h before class cancellation policy. Although we love to give as much flexibility as possible to our members, in light of the current safety restrictions and reduced capacity, such policy is the only way to ensure the best usage and availability of classes for all Popfitters.
+                        <p>
+                          We have a minimum 12h before class cancellation
+                          policy. Although we love to give as much flexibility
+                          as possible to our members, in light of the current
+                          safety restrictions and reduced capacity, such policy
+                          is the only way to ensure the best usage and
+                          availability of classes for all Popfitters.
+                        </p>
                       </div>
                     </div>
                   </div>
                   <div class="card">
-                    <div class="card-header" id="headingThree">
+                    <div class="card-header" id="headingEight">
                       <h2 class="mb-0">
-                        <button class="btn btn-link btn-block text-left collapsed" type="button" 
-                        data-toggle="collapse" data-target="#chargedfornoshow" aria-expanded="false" 
-                        aria-controls="chargedfornoshow">
+                        <button
+                          class="btn btn-link btn-block text-left collapsed"
+                          type="button"
+                          data-toggle="collapse"
+                          data-target="#chargedfornoshow"
+                          aria-expanded="false"
+                          aria-controls="chargedfornoshow"
+                        >
                           Will I Be Charged For A No-Show Or Late Cancellation
                         </button>
                       </h2>
                     </div>
-                    <div id="chargedfornoshow" class="collapse" aria-labelledby="headingThree" 
-                    data-parent="#accordionExample">
+                    <div
+                      id="chargedfornoshow"
+                      class="collapse"
+                      aria-labelledby="headingEight"
+                      data-parent="#faq-accordion"
+                    >
                       <div class="card-body">
-                        Yes, you will lose your booked credit for that session (and if on one of our Unlimited membership, you will be charged a &#163 5 late cancellation / &#163 no-show fee)
+                        <p>
+                          Yes, you will lose your booked credit for that session
+                          (and if on one of our Unlimited membership, you will
+                          be charged a &#163; 5 late cancellation / &#163;
+                          no-show fee).
+                        </p>
                       </div>
                     </div>
+                  </div>
                 </div>
+              </div>
             </div>
-            </div>
-            </div>
-            </div>
+          </div>
         </section>
+      </div>
+      <!-- /FAQ -->
+      <!-- footer -->
+      <footer class="container-fluid bg-light">
+        <div id="footer-details" class="row">
+          <div class="col-md-2">
+            <h5 class="uppercase">Hours:</h5>
+            <h6>M-S: 6am - 8pm</h6>
+          </div>
+          <div class="col-md-2">
+            <h5 class="uppercase">Phone:</h5>
+            <h6><a href="tel:07719555555">07719 555555</a></h6>
+          </div>
+          <div class="col-md-2">
+            <h5 class="uppercase">Email:</h5>
+            <h6><a href="mailto:popfit@popfit.com">popfit@gmail.com</a></h6>
+          </div>
+          <div class="col-md-4">
+            <ul class="list-inline d-flex justify-content-around">
+              <li class="list-inline-item">
+                <a href="https://www.facebook.com" target="_blank"
+                  ><i class="fab fa-facebook-f"></i
+                ></a>
+              </li>
+              <li class="list-inline-item">
+                <a href="https://www.instagram.com" target="_blank"
+                  ><i class="fab fa-instagram"></i
+                ></a>
+              </li>
+              <li class="list-inline-item">
+                <a href="https://www.youtube.com" target="_blank"
+                  ><i class="fab fa-youtube"></i
+                ></a>
+              </li>
+            </ul>
+          </div>
+          <div
+            class="col-md-2 d-flex justify-content-center align-items-center"
+          >
+            <h5 class="uppercase general-sub">
+              <a id="faq" href="faq.html">FAQ</a>
+            </h5>
+          </div>
+        </div>
+      </footer>
     </div>
-<!-- /FAQ -->
-<!-- footer -->
-<footer class="container-fluid bg-light">
-    <div id="footer-details" class="row">
-      <div class="col-sm-2">
-        <h5 class="uppercase">Hours:</h5>
-        <h6>M-S: 6am - 8pm</h6>
-      </div>
-      <div class="col-sm-2">
-        <h5 class="uppercase">Phone:</h5>
-        <h6><a href="tel:07719555555">07719 555555</a></h6>
-      </div>
-      <div class="col-sm-2">
-        <h5 class="uppercase">Email:</h5>
-        <h6><a href="mailto:popfit@popfit.com">popfit@gmail.com</a></h6>
-      </div>
-      <div class="col-sm-4">
-        <ul class="list-inline d-flex justify-content-around">
-          <li class="list-inline-item">
-            <a
-              href="https://www.facebook.com"
-              target="_blank"
-              alt="facebook link"
-              ><i class="fab fa-facebook-f"></i
-            ></a>
-          </li>
-          <li class="list-inline-item">
-            <a
-              href="https://www.instagram.com"
-              target="_blank"
-              alt="instagram link"
-              ><i class="fab fa-instagram"></i
-            ></a>
-          </li>
-          <li class="list-inline-item">
-            <a
-              href="https://www.youtube.com"
-              target="_blank"
-              alt="youtube link"
-              ><i class="fab fa-youtube"></i
-            ></a>
-          </li>
-        </ul>
-      </div>
-
-      <div class="col-sm-2 d-flex justify-content-center align-items-center">
-        <h5 class="uppercase general-sub">
-          <a id="faq" href="faq.html">FAQ</a>
-        </h5>
-      </div>
-    </div>
-  </footer>
-<!-- /footer -->
-<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
-</body>
+    <!-- /footer -->
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>

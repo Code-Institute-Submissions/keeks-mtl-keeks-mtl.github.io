@@ -15,12 +15,7 @@
       type="text/css"
     />
     <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.1.1/css/hover-min.css"
-      type="text/css"
-    />
-    <link
-      href="https://fonts.googleapis.com/css?family=Roboto:400,700"
+      href="https://fonts.googleapis.com/css?family=Roboto:400"
       rel="stylesheet"
     />
     <link rel="stylesheet" href="assets/css/style.css" type="text/css" />
@@ -55,9 +50,9 @@
             <a class="nav-link" href="schedule.html">Schedule</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link d-none d-md-block" href="index.html"
-              ><span>Popfit</span></a
-            >
+            <a class="nav-link d-none d-md-block" href="index.html">
+              <span id="popfit-title">Popfit</span>
+            </a>
           </li>
           <li class="nav-item d-flex align-items-center justify-content-center">
             <a class="nav-link" href="classes.html">Classes</a>
@@ -72,20 +67,24 @@
     <!-- alert -->
     <section class="alert-bar">
       <div class="container-fluid safety">
-        <div class="row no-gutters">
-          <div class="d-none d-md-block col-md-6 safe-text uppercase">
-            Find out how we're keeping you safe
+        <div class="row h-100 align-items-center no-gutters">
+          <div class="d-none d-md-block col-md-6 safe-text text-uppercase">
+            <h6>Find out how we're keeping you safe</h6>
           </div>
           <div class="col-md-6">
-            <a id="safety-measures" class="btn btn-sm btn-light" href="faq.html"
-              >Safety Measures</a
+            <a
+              id="safety-measures"
+              class="btn btn-sm btn-light"
+              href="faq.html"
             >
+              Covid Policy
+            </a>
           </div>
         </div>
       </div>
     </section>
     <!-- /alert -->
-    <!-- classes -->
+    <!-- schedule -->
     <section class="classes">
       <div class="container classes-table">
         <div class="row">
@@ -229,60 +228,48 @@
         </div>
       </div>
     </section>
-    <!-- /classes -->
+    <!-- /schedule -->
     <!-- footer -->
     <footer class="container-fluid bg-light">
       <div id="footer-details" class="row">
-        <div class="col-sm-2">
+        <div class="col-md-2">
           <h5 class="uppercase">Hours:</h5>
           <h6>M-S: 6am - 8pm</h6>
         </div>
-        <div class="col-sm-2">
+        <div class="col-md-2">
           <h5 class="uppercase">Phone:</h5>
           <h6><a href="tel:07719555555">07719 555555</a></h6>
         </div>
-        <div class="col-sm-2">
+        <div class="col-md-2">
           <h5 class="uppercase">Email:</h5>
           <h6><a href="mailto:popfit@popfit.com">popfit@gmail.com</a></h6>
         </div>
-        <div class="col-sm-4">
+        <div class="col-md-4">
           <ul class="list-inline d-flex justify-content-around">
             <li class="list-inline-item">
-              <a
-                href="https://www.facebook.com"
-                target="_blank"
-                alt="facebook link"
+              <a href="https://www.facebook.com" target="_blank"
                 ><i class="fab fa-facebook-f"></i
               ></a>
             </li>
             <li class="list-inline-item">
-              <a
-                href="https://www.instagram.com"
-                target="_blank"
-                alt="instagram link"
+              <a href="https://www.instagram.com" target="_blank"
                 ><i class="fab fa-instagram"></i
               ></a>
             </li>
             <li class="list-inline-item">
-              <a
-                href="https://www.youtube.com"
-                target="_blank"
-                alt="youtube link"
+              <a href="https://www.youtube.com" target="_blank"
                 ><i class="fab fa-youtube"></i
               ></a>
             </li>
           </ul>
         </div>
-
-        <div class="col-sm-2 d-flex justify-content-center align-items-center">
+        <div class="col-md-2 d-flex justify-content-center align-items-center">
           <h5 class="uppercase general-sub">
             <a id="faq" href="faq.html">FAQ</a>
           </h5>
         </div>
       </div>
     </footer>
-    <!-- schedule -->
-    <!-- /!schedule -->
     <!-- /footer -->
     <script
       src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
