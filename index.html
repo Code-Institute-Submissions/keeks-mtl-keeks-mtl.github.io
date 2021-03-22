@@ -20,7 +20,7 @@
       type="text/css"
     />
     <link
-      href="https://fonts.googleapis.com/css?family=Roboto:400,700"
+      href="https://fonts.googleapis.com/css?family=Roboto:400"
       rel="stylesheet"
     />
     <link rel="stylesheet" href="assets/css/style.css" type="text/css" />
@@ -56,7 +56,7 @@
           </li>
           <li class="nav-item">
             <a class="nav-link d-none d-md-block" href="index.html"
-              ><span>Popfit</span></a
+              ><span id="popfit-title">Popfit</span></a
             >
           </li>
           <li class="nav-item d-flex align-items-center justify-content-center">
@@ -72,13 +72,13 @@
     <!-- alert -->
     <section class="alert-bar">
       <div class="container-fluid safety">
-        <div class="row no-gutters">
-          <div class="d-none d-md-block col-md-6 safe-text uppercase">
+        <div class="row h-100 align-items-center no-gutters">
+          <div class="d-none d-md-block col-md-6 safe-text text-uppercase">
             Find out how we're keeping you safe
           </div>
           <div class="col-md-6">
             <a id="safety-measures" class="btn btn-sm btn-light" href="faq.html"
-              >Safety Measures</a
+              >Covid Policy</a
             >
           </div>
         </div>
@@ -101,7 +101,9 @@
       <!-- about us -->
       <section class="features">
         <div class="container" id="aboutus-section">
-          <h2 class="text-center">START YOUR 7 DAY FREE TRIAL TODAY!</h2>
+          <div class="row justify-content-center">
+          <div class="col-md-10">
+          <h2 class="text-center text-uppercase">Start your 7 day free trial today!</h2>
           <p class="text-center">
             POPfit Signature Dance Fitness Class offers you a high energy
             workout set to music with easy to follow moves. Designed to work
@@ -110,23 +112,27 @@
             post-workout glow.
           </p>
           <p class="text-center">
-            Other classes include Barre, Ass & Abs, HIIT & Stretch. All levels
+            Other classes include Barre, Ass &#38 Abs, HIIT & Stretch. All levels
             are welcome - if you are new to POPfit, we encourage you to go at
             your own pace to begin with. Low impact and modifications are
             available. Your body, your workout.
           </p>
           <p class="text-center">
-            POPfit's Founder Steph "I am really passionate about creating
-            workouts that you can enjoy as well as being highly effective. As a
-            dancer I want to enjoy moving my body but I also want to lose
-            weight, tone up and stay really strong and fit. Not only that but I
-            believe in exercise for your mental wellbeing. Moving to music feels
-            good, it's brilliant for your mood".
+            POPfit's Founder Steph: 
           </p>
+            <blockquote>
+              "I am really passionate about creating workouts that you can enjoy as 
+              well as being highly effective. As a dancer I want to enjoy moving my 
+              body but I also want to lose weight, tone up and stay really strong and 
+              fit. Not only that but I believe in exercise for your mental wellbeing. 
+              Moving to music feels good, it's brilliant for your mood."
+            </blockquote>
           <div class="text-center">
             <a href="signup.html"
               ><button class="btn btn-lg btn-light">Start Today</button></a
             >
+          </div>
+          </div>
           </div>
         </div>
       </section>
@@ -150,24 +156,24 @@
             <div class="col-12 col-md-6 col-lg-4">
               <div class="card">
                 <img
-                  src="https://images.pexels.com/photos/863926/pexels-photo-863926.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
-                  class="card-img-top"
-                  alt="close-up of woman in workout gear with small weights"
-                />
-                <div class="card-body p-0 link-cards">
-                  <a href="classes.html" class="btn btn-light">Classes</a>
-                </div>
-              </div>
-            </div>
-            <div class="col-12 d-md-none d-lg-block col-lg-4">
-              <div class="card">
-                <img
                   src="https://images.pexels.com/photos/868757/pexels-photo-868757.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
                   class="card-img-top"
                   alt="three women on workout mats stretching"
                 />
                 <div class="card-body p-0 link-cards">
                   <a href="schedule.html" class="btn btn-light">Schedule</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-12 d-md-none d-lg-block col-lg-4">
+              <div class="card">
+                <img
+                  src="https://images.pexels.com/photos/863926/pexels-photo-863926.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+                  class="card-img-top"
+                  alt="close-up of woman in workout gear with small weights"
+                />
+                <div class="card-body p-0 link-cards">
+                  <a href="classes.html" class="btn btn-light">Classes</a>
                 </div>
               </div>
             </div>
@@ -179,25 +185,24 @@
     <!-- footer -->
     <footer class="container-fluid bg-light">
       <div id="footer-details" class="row">
-        <div class="col-sm-2">
+        <div class="col-md-2">
           <h5 class="uppercase">Hours:</h5>
           <h6>M-S: 6am - 8pm</h6>
         </div>
-        <div class="col-sm-2">
+        <div class="col-md-2">
           <h5 class="uppercase">Phone:</h5>
           <h6><a href="tel:07719555555">07719 555555</a></h6>
         </div>
-        <div class="col-sm-2">
+        <div class="col-md-2">
           <h5 class="uppercase">Email:</h5>
           <h6><a href="mailto:popfit@popfit.com">popfit@gmail.com</a></h6>
         </div>
-        <div class="col-sm-4">
+        <div class="col-md-4">
           <ul class="list-inline d-flex justify-content-around">
             <li class="list-inline-item">
               <a
                 href="https://www.facebook.com"
                 target="_blank"
-                alt="facebook link"
                 ><i class="fab fa-facebook-f"></i
               ></a>
             </li>
@@ -205,7 +210,6 @@
               <a
                 href="https://www.instagram.com"
                 target="_blank"
-                alt="instagram link"
                 ><i class="fab fa-instagram"></i
               ></a>
             </li>
@@ -213,14 +217,13 @@
               <a
                 href="https://www.youtube.com"
                 target="_blank"
-                alt="youtube link"
                 ><i class="fab fa-youtube"></i
               ></a>
             </li>
           </ul>
         </div>
 
-        <div class="col-sm-2 d-flex justify-content-center align-items-center">
+        <div class="col-md-2 d-flex justify-content-center align-items-center">
           <h5 class="uppercase general-sub">
             <a id="faq" href="faq.html">FAQ</a>
           </h5>

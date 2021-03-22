@@ -7,10 +7,6 @@ h1 {
     color: #7c7c7d;
 }
 
-.uppercase {
-    text-transform: uppercase;
-}
-
 .page-container {
   display: flex;
   flex-direction: column;
@@ -23,7 +19,7 @@ h1 {
 
 /* Navbar */
 
-span {
+#popfit-title {
     font-size: 5rem;
 }
 
@@ -52,7 +48,7 @@ img {
 .safety {
     color: #7c7c7d;
     /* background-color: rgba(124,124,125,0.2); */
-    background-image: url(../images/pkwatercolor-background.jpg);
+    background-image: url("../images/pkwatercolor-background.jpg");
     background-position: left bottom;
     padding: .75% 0;
     margin-top: 1rem;
@@ -65,7 +61,7 @@ img {
 
 #aboutus-section {
     margin-top: 2%;
-    padding: 2% 15%;
+    padding: 2%;
     margin-bottom: 2%;
 }
 #aboutus-section p{
@@ -73,14 +69,20 @@ img {
     margin-bottom: 20px;
     font-size: 1.5rem;
 }
+blockquote {
+    font-size: 1.5rem;
+    text-align: center;
+}
 
 /* Features */
 
 .features-box {
     padding-bottom: 5%;
 }
+
 .link-cards a {
     display: block;
+    border-radius: 0%;
 }
 
 /* Footer */
@@ -188,8 +190,8 @@ td a {
         padding-left: 0;
     }
 }
-@media only screen and (max-width: 326px) {
+/* @media only screen and (max-width: 326px) {
     .navbar-toggler-icon {
         font-size: 49px;
     }
-}
+} */
