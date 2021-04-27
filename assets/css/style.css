@@ -136,16 +136,6 @@ i {
   font-size: 2.5em;
 }
 
-/* form */
-
-form .row {
-  margin: 2% 0;
-}
-
-label {
-  text-align: right;
-}
-
 /* pricing */
 .pricing-box {
   padding-bottom: 3%;
@@ -169,6 +159,14 @@ label {
 /* signup */
 .signup-form button {
   width: 250px;
+}
+
+form .row {
+  margin: 2% 0;
+}
+
+label {
+  text-align: right;
 }
 
 /* Buy now modal */
