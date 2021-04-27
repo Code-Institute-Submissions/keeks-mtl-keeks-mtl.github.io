@@ -111,11 +111,13 @@ The initial wireframes and the current project differ in some minor ways:
 
 ### Colours
 
+![popfit-colours](https://user-images.githubusercontent.com/66472161/116217775-d436b500-a741-11eb-80e8-a58ecb830cb7.PNG)
+
 - The colour theme included four main colours that complimented one another.
-- <span style="color:#f1a293">#f1a293</span>
-- <span style="color:#7c7c7d">#7c7c7d</span>
-- <span style="color:#f8f9f">#f8f9f</span>
-- <span style="color:#30c1cf">#30c1cf</span>
+- #f1a293
+- #7c7c7d
+- #f8f9f
+- #30c1cf
 - The colours were chosen because of their contrast and the way they link to the branding of the gym.
 
 ## Features
@@ -212,7 +214,14 @@ The initial wireframes and the current project differ in some minor ways:
 - **As a user, forms should be easy to fill and submit**
   - The form is clear and logically ordered. Easy to see what needs to be filled in and a clear submit button.
 
+- **Further Testing**
+    - The site was further tested for responsiveness through Chrome devtools across multiple device sizes including multiple for desktop, tablet, and mobile devices. 
+    - Friends were asked to test on personal devices and requested to look for any flaws or issues.
+    - There was also tested done across multiple browsers to look for issues. 
+
 ### Navigation bar
+
+![popfit-navbar](https://user-images.githubusercontent.com/66472161/116215932-05ae8100-a740-11eb-80b4-3b943ddd48b0.PNG)
 
 1. Plan
 
@@ -232,6 +241,8 @@ The initial wireframes and the current project differ in some minor ways:
    - Passed all the tests after some changes (mostly on much smaller mobile devices)
 
 ### Modals
+
+![popfit-buynowmodal](https://user-images.githubusercontent.com/66472161/116216221-4dcda380-a740-11eb-8ca7-e7f1c3fd6905.PNG)
 
 1. Plan
 
@@ -256,6 +267,8 @@ The initial wireframes and the current project differ in some minor ways:
    - The formatting worked across multiple devices
 
 ### Contact form
+
+![popfit-signup](https://user-images.githubusercontent.com/66472161/116216297-62aa3700-a740-11eb-90d3-c345b0c5ac69.PNG)
 
 1. Plan
 
